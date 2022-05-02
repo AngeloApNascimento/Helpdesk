@@ -1,7 +1,7 @@
 # Guia Abrir / Analisar Pendência
 
 #### Objetivo
-Este documento tem como objetivo descrever o processo de abertura e acompanhamento de pendências relacionadas aos Sistemas Sonner.
+Este documento tem como objetivo descrever o processo de abertura e acompanhamento de pendências.
 
 #### Responsável
 Usuário do Sistema / Analista de Suporte
@@ -32,13 +32,13 @@ Para abrir uma pendência deve ser informado os seguintes campos:
 
 #### Tipo de Problema: Erro de Sistema.
 Quando o tipo de problema for “Erro de Sistema” o campo descrição da pendência deverá conter pelo menos as seguintes informações:
-* Módulo: Informar qual módulo do sistema está com erro Ex: Ouvidoria que pertence ao sistema de PDF - Protocolo Documentos e Fluxos
+* Módulo: Informar qual módulo do sistema está com erro 
 * Versão atual do Sistema: A versão atual de sistema em produção
-* Menu: Descrever o menu para simulação Ex: Ouvidoria / Relatórios da Ouvidoria – Atendimento
+* Menu: Descrever o menu para simulação 
 
 A descrição deverá conter todos os procedimentos realizados no sistema e todos os campos utilizados, filtros, relatórios, datas / período Ex: dd/mm/aaaa até dd/mm/aaaa, logs de erros e descrever todo o cenário de teste utilizado para simular o erro.
 
-Deverá também ser gerado um backup full da base do cliente, sem os arquivos de log e sem os arquivos digitais. Consultar guia “Gerar Backup Sonner”.
+Deverá também ser gerado um backup full da base do cliente, sem os arquivos de log e sem os arquivos digitais. 
 
 #### Tipo de Problema: Melhoria / Melhoria Futura / Nova Funcionalidade.
 Consultar guia “Especificar Requisitos”.
@@ -46,12 +46,4 @@ Consultar guia “Especificar Requisitos”.
 #### Tipo de Problema: Procedimento Operacional.
 Quando o tipo de problema for “Procedimento Operacional” o analista de suporte deverá descrever o passo a passo de como resolver o procedimento no sistema e enviar a pendência para responsabilidade do solicitante.
 
-#### Envio de Pendência para o Suporte Técnico.
-Após documentação da pendência de acordo com o tipo de problema, a pendência deverá ser enviada para o suporte técnico.
-
-Para realizar o envio clique com o botão direito sobre a pendência e selecione a opção **“Enviar pendência para o Suporte Técnico”**.
-
-Nesse momento será automaticamente criado um Jira para ánalise da equipe de desenvolvimento sonner.
-
 #### Referências
-Sistema de Suporte Sonner.
